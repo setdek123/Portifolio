@@ -1,6 +1,4 @@
 import Button from "../components/button";
-import About from "./about";
-import Contacts from "./contacts";
 import Projects from "./projects";
 
 import perfil from "../assets/img/perfil.png";
