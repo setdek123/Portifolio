@@ -1,0 +1,40 @@
+.anim{
+    transition: 1s linear ;
+    animation: animt 10s infinite;
+}
+
+.anim2{
+    transition: 1s linear ;
+    animation: animt 11s infinite;
+}
+
+.anim3{
+    transition: 1s linear ;
+    animation: animt 12s infinite;
+}
+
+.anim4{
+    transition: 1s linear ;
+    animation: animt 13s infinite;
+}
+
+.anim5{
+    transition: 1s linear ;
+    animation: animt 14s infinite;
+}
+
+@keyframes animt{
+    0%{
+        transform: translate(600px);
+        opacity: 0;
+    }
+
+    75%{
+        opacity: 1;
+    }
+    
+    100%{
+        transform: translate(-600px);
+        opacity: 0;
+    }
+}

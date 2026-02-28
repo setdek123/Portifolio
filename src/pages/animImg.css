@@ -1,0 +1,102 @@
+.amiImg {
+    animation: anim 5s linear infinite;
+    z-index: -1;
+    margin-left: -300px;
+    margin-top: -120px;
+}
+
+.anim2{
+    animation: anim2 6s linear infinite;
+    z-index: -1;
+    margin-left: 350px;
+    margin-top: -50px;
+}
+
+
+.animReact{
+    animation: anim2 7s linear infinite;
+    z-index: -1;
+    margin-left: 350px;
+    margin-top: -220px;
+}
+  
+
+.animJavascript{
+    animation: anim4 8s linear infinite;
+    z-index: 0;
+    margin-left: -200px;
+    margin-top: -650px;
+
+}
+  
+
+  
+  @keyframes anim {
+    0% {
+      transform: translate(320px, 100px);
+      opacity: 0;
+    }
+  
+    75% {
+      opacity: 1;
+    }
+  
+    100% {
+      transform: translate(0px, 0px);
+      opacity: 0;
+    }
+  }
+
+/*Bolinha 2*/
+
+  @keyframes anim2 {
+    0% {
+      transform: translate(-320px, 100px);
+      opacity: 0;
+    }
+  
+    75% {
+      opacity: 1;
+    }
+  
+    100% {
+      transform: translate(0px, 0px);
+      opacity: 0;
+    }
+  }
+
+
+  @keyframes anim2 {
+    0% {
+      transform: translate(-320px, 100px);
+      opacity: 0;
+    }
+  
+    75% {
+      opacity: 1;
+    }
+  
+    100% {
+      transform: translate(0px, 0px);
+      opacity: 0;
+    }
+  }
+
+
+
+
+  @keyframes anim4 {
+    0% {
+      transform: translate(320px, 100px);
+      opacity: 0;
+    }
+  
+    75% {
+      opacity: 1;
+    }
+  
+    100% {
+      transform: translate(0px, 0px);
+      opacity: 0;
+    }
+  }
