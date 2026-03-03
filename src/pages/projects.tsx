@@ -6,7 +6,7 @@ import './projectsAnim.css';
 
 const Projects = () => {
     return (
-        <div className="flex  border-t border-white flex-col overflow-hidden bg-gradient-to-r from-[#000000] via-[#6441b6] to-blue-500">
+        <div className="flex  border-t border-white flex-col overflow-hidden bg-gradient-to-r from-[#] via-[#6441b6] to-blue-500">
             <div className='flex items-center justify-center w-full'>
                 <div className='text-white flex gap-10  justify-around mt-40'>
                     <div className='anim'>
