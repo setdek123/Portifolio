@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className=" hidden md:flex items-center gap-10 text-xl text-white">
         <Link to={"/"}>Home</Link>
         <Link to={"/about"}>About</Link>
-        <Link to={"/projacts"}>Projects</Link>
+        <Link to={"/projects"}>Projects</Link>
         <div className="text-[#7456FF] border-2 rounded-md border-[#7456FF] p-2">
           <Link to={"/contact"}>Contact Me</Link>
         </div>
