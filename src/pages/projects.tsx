@@ -1,6 +1,6 @@
 import perfil from '../assets/img/background.jpg'
 import { MdHtml, MdCss, MdJavascript } from 'react-icons/md';
-//import { FaReact, FaNodeJs } from 'react-icons/fa';
+import { FaReact } from 'react-icons/fa';
 
 
 const Projects = () => {
